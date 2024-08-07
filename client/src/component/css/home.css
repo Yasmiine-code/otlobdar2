@@ -1,0 +1,60 @@
+/* home.css */
+.home {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to right, #007BFF, #0056b3);
+    color: white;
+  }
+  
+  .hero {
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+  }
+  
+  .cta-buttons button {
+    background: #0056b3;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 25px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .cta-buttons button:hover {
+    background: #003d7a;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .feature h3 {
+    margin-top: 0;
+    color: #007BFF;
+  }
+  
